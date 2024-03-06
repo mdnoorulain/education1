@@ -16,10 +16,10 @@ export const Header = () => {
             
           </div>
           <nav className={open ? "mobile-view" : "desktop-view"}>
-            <ul className='flex items-center gap-6'>
+            <ul className='flex items-center  gap-6'>
               {LinkData.map((link) => (
-                <li key={link.id} onClick={() => setOpen(null)}>
-                  <NavLink className={({ isActive }) => (isActive ? "text-primary text-sm" : "text-[15px]")} to={link.url}>
+                <li className="  " key={link.id} onClick={() => setOpen(null)}>
+                  <NavLink className={({ isActive }) => (isActive ? " text-primary  text-sm" : "text-[15px]")} to={link.url}>
                     {link.title}
                   </NavLink>
                 </li>

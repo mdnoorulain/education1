@@ -28,33 +28,33 @@ export const LinkData = [
 export const memories = [
   {
     id: 1,
-    cover: "../images/course-2-1.jpg",
+    cover: "../images/im1.jpg",
     title: "Our Founder",
   },
   {
     id: 2,
-    cover: "../images/course-4-1.jpg",
+    cover: "../images/im2.jpg",
     title: "Beautifull Moments",
   },
   {
     id: 3,
-    cover: "../images/course-5-1.jpg",
+    cover: "../images/im3.jpg",
     title: "Heartwarming pic",
   },
   {
     id: 4,
-    cover: "../images/course-6-1.jpg",
+    cover: "../images/im4.jpg",
     title: "Best Collection",
   },
   {
     id: 5,
-    cover: "../images/course11.jpg",
-    title: "Children's Day",
+    cover: "../images/im5.jpg",
+    title: "hear Touching",
   },
   {
     id: 6,
-    cover: "../images/course12.jpg",
-    title: "TRepublic Day",
+    cover: "../images/im6.jpg",
+    title: "Special Day",
   },
 ]
 export const courses = [

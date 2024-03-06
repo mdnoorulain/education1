@@ -16,7 +16,7 @@ export const Courses = () => {
           <div className='grid grid-cols-3 gap-8 md:grid-cols-1'>
             {memories.map((item) => (
               <div className='box rounded-lg shadow-shadow1 bg-white'>
-                <div className='images rounded-t-lg relative overflow-hidden h-40 w-ful'>
+                <div className='images rounded-t-lg relative overflow-hidden h-50 w-ful'>
                   <img src={item.cover} alt='' className='rounded-t-lg object-cover w-full h-full transition ease-in-out delay-150 cursor-pointer hover:scale-125 duration-300' />
                   <div className='categ flex gap-4 absolute top-0 m-3'>
                   </div>
