@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { LinkData } from "../assets/data/data"
 import { NavLink } from "react-router-dom"
 import { MdSchool } from "react-icons/md";
+import { HiOutlineMenuAlt1 } from "react-icons/hi"
 
 export const Header = () => {
   const [open, setOpen] = useState(false)
@@ -25,7 +26,12 @@ export const Header = () => {
               ))}
             </ul>
           </nav>
-          
+          <div className='account flex items-center gap-5'>
+           {" "}
+            <button className='open-menu' onClick={() => setOpen(!open)}>
+              <HiOutlineMenuAlt1 size={25} />
+            </button>
+          </div>
         </div>
       </header>
     </>

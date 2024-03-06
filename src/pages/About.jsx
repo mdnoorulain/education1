@@ -21,7 +21,7 @@ export const About = () => {
               help.
             </span>
           </div>
-          <div className="grid grid-cols-4 gap-5 mt-5 md:grid-cols-2">
+          <div className="grid grid-cols-4 gap-5 mt-5 md:grid-cols-1">
             <AboutCard
               color="bg-[#2D69F0]"
               icon={<IoAccessibility size={50} />}
