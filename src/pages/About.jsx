@@ -6,6 +6,7 @@ import { IoAccessibility } from "react-icons/io5";
 import { GiNotebook } from "react-icons/gi";
 import { FaBookReader } from "react-icons/fa";
 import { BiMath } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 export const About = () => {
   return (
@@ -110,9 +111,11 @@ export const AboutContent = () => {
                 Learn the latest skills
               </li>
             </ul>
-            <button className="px-5 py-2 border border-gray-300 rounded-md text-sm">
-              Admission Now
-            </button>
+            <Link 
+            to='/admission'
+            className="px-5 py-2 border border-solid border-gray-300  rounded-md text-sm cursor-pointer">
+               Admission Now
+            </Link>
           </div>
         </div>
       </div>

@@ -26,9 +26,7 @@ export const Footer = () => {
             <NavLink to='#' className=' text-[14px] block mb-2'>
               Portfolio
             </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Blog
-            </NavLink>
+            
             <NavLink to='#' className=' text-[14px] block mb-2'>
               Our team
             </NavLink>
@@ -43,9 +41,7 @@ export const Footer = () => {
             <NavLink to='#' className=' text-[14px] block mb-2'>
               Pricing
             </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Blog
-            </NavLink>
+            
             <NavLink to='#' className=' text-[14px] block mb-2'>
               Landing
             </NavLink>
@@ -58,9 +54,7 @@ export const Footer = () => {
             <NavLink to='#' className=' text-[14px] block mb-2'>
               Contact
             </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Reviews
-            </NavLink>
+            
             <NavLink to='#' className=' text-[14px] block mb-2'>
               Services
             </NavLink>

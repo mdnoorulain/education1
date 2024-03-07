@@ -6,6 +6,7 @@ import { About } from "./pages/About"
 import { Courses } from "./pages/Courses"
 import { Blog } from "./pages/Blog"
 import { Instructor } from "./pages/Instructor"
+import {Admission} from "./pages/Admission"
 
 function App() {
   return (
@@ -25,6 +26,14 @@ function App() {
             element={
               <Layout>
                 <About />
+              </Layout>
+            }
+          />
+          <Route
+            path='/admission'
+            element={
+              <Layout>
+                <Admission />
               </Layout>
             }
           />
